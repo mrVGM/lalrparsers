@@ -11,7 +11,7 @@ where the symbols <Start> and <End> should not occur in any of the other rules.
 
 Here is an example of a grammar definition (for arithmetic expressions):
 
-<S> "<Exp><END>"
+<S> \"<Exp><END>\"
 
 <Exp> "<Exp>+<Term>"
 <Exp> "<Exp>-<Term>"
